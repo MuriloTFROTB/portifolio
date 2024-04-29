@@ -1,0 +1,121 @@
+.container {
+    .card {
+        margin: 0px auto;
+        width: 1100px;
+        display: flex;
+        align-items: center;
+        height: 100dvh;
+
+        .card-info {
+            display: flex;
+            flex: 1;
+
+            .card-mypicture {
+                width: 340px;
+                margin-right: 20px;
+
+                .mypicture {
+                    width: 100%;
+                    border-radius: 100%;
+                }
+            }
+        }
+
+        .texto {
+            flex: 1;
+            width: 100%;
+            position: relative;
+
+            .text {
+                h1 {
+                    color: white;
+                    font-size: 45px;
+                    font-weight: 500;
+                }
+
+            }
+
+            .list {
+                display: flex;
+                gap: 32px;
+                margin-top: 32px;
+                align-items: center;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    h1 {
+                        color: white;
+                        font-weight: 400;
+                        font-size: 24px;
+                    }
+                }
+
+            }
+
+            .btn-moreinfo {
+                position: absolute;
+                bottom: 16px;
+
+                span {
+                    border: 1px solid white;
+                    cursor: pointer;
+                    font-size: 24px;
+                    color: white;
+                    padding: 8px 32px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    .card-aboutme {
+        margin: 0px auto;
+        width: 1100px;
+        align-items: center;
+        height: 100dvh;
+
+        .aboutme {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+            .body-aboutme {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+
+                .card-about {
+                    background-color: rgba(0, 0, 0, 0.464);
+                    padding: 32px 16px;
+                    border-radius: 8px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 350px;
+                    gap: 16px;
+
+                    i {
+                        font-size: 180px;
+                        color: white;
+                    }
+
+                    h1 {
+                        font-weight: 400;
+                        font-size: 24px;
+                        color: white;
+                        margin-bottom: 8px;
+                    }
+
+                    h2 {
+                        font-weight: 300;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
